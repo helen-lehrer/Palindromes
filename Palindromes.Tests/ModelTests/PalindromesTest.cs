@@ -10,7 +10,7 @@ namespace Palindromes.Tests
     public void IsPalindrome_IsItAPalindrome_True()
     {
       Checker checker = new Checker();
-      Assert.AreEqual(true, checker.IsPalindrome("racecar"));
+      Assert.AreEqual(true, checker.IsPalindrome("eevee"));
     }
   }
 }

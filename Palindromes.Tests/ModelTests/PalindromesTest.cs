@@ -12,5 +12,11 @@ namespace Palindromes.Tests
       Checker checker = new Checker();
       Assert.AreEqual(true, checker.IsPalindrome("eevee"));
     }
+    [TestMethod]
+    public void IsPalindromeNum_IsItAPalindrome_True()
+    {
+      Checker checker = new Checker();
+      Assert.AreEqual(true, checker.IsPalindromeNum(101));
+    }
   }
 }
